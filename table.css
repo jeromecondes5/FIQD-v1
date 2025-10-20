@@ -1,0 +1,130 @@
+tr:nth-child(even) {
+    background-color: #ffffff
+}
+
+tr:nth-child(odd) {
+    background-color: #ececec
+}
+
+td {
+    vertical-align: top;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+.table-content {
+    padding-top: 5px;
+}
+
+.table-content h2,
+.table-content p {
+    text-align: center;
+    text-shadow: 0px 1px 2px #d6d6d6;
+}
+
+th {
+    font-size: 15px;
+    border: 1px solid rgb(211, 209, 209);
+    background-color: rgb(162, 209, 238);
+    text-align: center;
+    text-shadow: 0px 1px 1px #e0dcdc;
+}
+
+.th-head {
+    padding: 0;
+}
+
+th,
+td {
+    padding: 6px;
+    white-space: nowrap;
+}
+
+tr {
+    text-align: center;
+}
+
+
+/* Monitoring & Activities every Month of the Year 2025 */
+
+.CNI-table {
+    margin-top: 15px;
+}
+
+.inner-td {
+    text-align: center;
+    white-space: wrap;
+    /* newly added    */
+}
+
+.inner-td-title {
+    font-weight: bold;
+    white-space: wrap;
+}
+
+.total-ACSWF {
+    vertical-align: middle;
+}
+
+.td-center-number {
+    font-weight: bold;
+}
+
+.td-center,
+.td-center-number {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 1;
+    width: 100%;
+    border: 1px solid #ddd;
+    /* table-layout: auto; */
+}
+
+.inner-td-activities {
+    text-align: left;
+    white-space: wrap;
+}
+
+
+/* activities-table */
+
+.date-activity {
+    font-weight: bold;
+    text-decoration: underline;
+    /* text-wrap: wrap; */
+}
+
+
+/*  Accredited Importers Table */
+
+.accredited-importers {
+    margin-top: 15px;
+}
+
+.h2-AI {
+    margin-top: 15px;
+}
+
+.SCNI {
+    margin-top: 15px;
+}
+
+.importation-data th {
+    white-space: wrap;
+}
+
+.inner-td-title-CNI {
+    font-weight: bold;
+    white-space: wrap;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.inner-td-impdata {
+    font-weight: bold;
+    word-wrap: normal;
+}

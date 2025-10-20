@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --maincolor:#2ec8a6;
+    /* --secondcolor:#f8a803;
+    --thirdcolor:#f4ab01; */
+    --textcolor:#4A5764;
+}
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:all .2s linear;
+    font-family: "Inter", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+
+.region-background {
+    background-color: rgb(162, 209, 238);
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #e0dcdc;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 608px) {
+  	.activities-table thead,
+    .activities-table th{
+		display: none;
+	}
+
+	.activities-table
+	.activities-table tbody, 
+	.activities-table tr, 
+	.activities-table td{
+		display: block;
+		width: 100%;
+		
+	}
+
+	.activities-table tr{
+		margin-bottom:15px;
+	}
+	.activities-table td{
+		text-align: right;
+		padding-left: 50%;
+		position: relative;
+	}
+	.activities-table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+    /* mobile view */
+
+    .responsive-table thead,
+    .responsive-table th {
+		display: none;
+	}
+
+    .hero-slider, .table-content, .responsive-table {
+        height: 550px;
+    }
+    
+	.responsive-table
+	.responsive-table tbody, 
+	.responsive-table tr, 
+	.responsive-table td{
+		display: block;
+		width: 100%;
+	}
+
+
+
+    .responsive-table tr {
+        row-gap: 20;
+    }
+
+
+	.responsive-table tr{
+		margin-bottom:15px;
+	}  
+	.responsive-table td{
+		text-align: right;
+		padding-left: 50%;
+		position: relative;
+	}
+	.responsive-table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	} 
+
+	.table-content h2 {
+		padding-top: 20px;
+	}
+
+
+    /* .home .single-slider .slider-text-main{ 
+        text-align: center;
+    }  */
+
+    .home .owl-item.active .slider-text-main h1{
+        animation: fadeInUp 1s both .8s;
+        line-height: 1.1;
+        width: 500px;
+        margin-top: -45px;
+        text-align: left;
+        word-wrap: break-word;
+		background-color: red;
+    }
+
+	.datetime {
+		display: none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {
+  	.activities-table thead,
+    .activities-table th{
+		display: none;
+	}
+
+	.activities-table
+	.activities-table tbody, 
+	.activities-table tr, 
+	.activities-table td{
+		display: block;
+		width: 100%;
+		
+	}
+
+	.activities-table tr{
+		margin-bottom:15px;
+	}
+	.activities-table td{
+		text-align: right;
+		padding-left: 50%;
+		position: relative;
+        
+	}
+	.activities-table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+    /* mobile view */
+
+    .responsive-table thead,
+    .responsive-table th {
+		display: none;
+	}
+
+    .hero-slider, .table-content, .responsive-table {
+        height: 550px;
+    }
+    
+	.responsive-table
+	.responsive-table tbody, 
+	.responsive-table tr, 
+	.responsive-table td{
+		display: block;
+		width: 100%;
+	}
+
+    .responsive-table tr {
+        row-gap: 20;
+    }
+
+
+	.responsive-table tr{
+		margin-bottom:15px;
+	}  
+	.responsive-table td{
+		text-align: right;
+		padding-left: 50%;
+		position: relative;
+	}
+	.responsive-table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	} 
+
+
+    /* .home .single-slider .slider-text-main{ 
+        text-align: center;
+    }  */
+
+    .home .owl-item.active .slider-text-main h1{
+        animation: fadeInUp 1s both .8s;
+        line-height: 1.1;
+        text-align: center;
+        width: 500px;
+        margin-top: -45px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+	.datetime {
+		position: absolute;
+		margin-top: 92px;
+		left: 130px;
+		z-index: 100;
+	}
+}
+
+/* 
+@media (max-width: 800px){ */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+  .activities-table thead,
+    .activities-table th{
+		display: none;
+	}
+
+	.activities-table
+	.activities-table tbody, 
+	.activities-table tr, 
+	.activities-table td{
+		display: block;
+		width: 100%;
+	}
+
+	.activities-table tr{
+		margin-bottom:15px;
+	}
+	.activities-table td{
+		text-align: right;
+		padding-left: 50%;
+		position: relative;
+        
+	}
+	.activities-table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+    /* mobile view */
+
+    .responsive-table thead,
+    .responsive-table th {
+		display: none;
+	}
+
+    .hero-slider, .table-content, .responsive-table {
+        height: 550px;
+    }
+    
+	.responsive-table
+	.responsive-table tbody, 
+	.responsive-table tr, 
+	.responsive-table td{
+		display: block;
+		width: 100%;
+	}
+
+    .responsive-table tr {
+        row-gap: 20;
+    }
+
+
+	.responsive-table tr{
+		margin-bottom:15px;
+	}  
+	.responsive-table td{
+		text-align: right;
+		padding-left: 50%;
+		position: relative;
+	}
+	.responsive-table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	} 
+
+
+    /* .home .single-slider .slider-text-main{ 
+        text-align: center;
+    }  */
+
+    .home .owl-item.active .slider-text-main h1{
+        animation: fadeInUp 1s both .8s;
+        line-height: 1.1;
+        text-align: center;
+        width: 720px;
+        margin-top: -45px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+	.datetime {
+		position: absolute;
+		margin-top: 92px;
+		left: 340px;
+		z-index: 100;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

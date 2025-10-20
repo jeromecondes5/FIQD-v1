@@ -1,0 +1,32 @@
+html {
+    font-family: roboto,sans-serif;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+
+body, button, input, select, optgroup, textarea {
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #252525;
+    line-height: 25px;
+    position: relative
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0
+}
+
+p {
+    color: #666;
+    margin: 0;
+    text-align: justify;
+    font-size: 15px;
+}
+
+a, button {
+    font-weight: 500
+}

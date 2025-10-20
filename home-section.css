@@ -1,0 +1,195 @@
+.main-home {
+    padding: min(1rem 7%);
+    /* default padding: 3rem 7%;  */
+    background-image: url(images/blurbg1.jpg);
+    width: 100%;
+    /* min-height: 60vh; or 100vh optional to remove or not. value before is 100vh*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* optional to remove or adjust */
+    position: relative;
+    top: 50px;
+    /* top: 70px; */
+}
+
+.home {
+    position: relative;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+
+/* slider */
+
+.home-slider {
+    position: relative;
+    top: 164px;
+}
+
+.hero-slider {}
+
+.home .single-slider {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    height: 540px;
+    /* height: 470px; */
+    width: 100%;
+}
+
+.home .single-slider:before {
+    opacity: .7;
+}
+
+.home .single-slider .slider-text-main {
+    /* FIQD Main */
+    margin: 410px 0 0;
+    /* margin: 171px 0 0; /// margin: 420px 0 0;  // margin: 420px */
+    /* margin-left: 370px;
+    width: 1000px;      */
+    margin-left: 10px;
+    width: 1300px;
+}
+
+.home .single-slider .slider-text-LAA-OF {
+    /* ORNAMENTAL FISH AND FOOD FISH */
+    margin: 420px 0 0;
+    margin-left: 100px;
+    width: 10000px;
+}
+
+.home .single-slider .slider-text-AI {
+    /* List of Accredited Importers */
+    /* margin: 171px 0 0;///  margin: 420px 0 0;*/
+    margin-left: 450px;
+    width: 1000px;
+}
+
+.home .single-slider .slider-text-AE-LAA-FF {
+    /* List of Accredited Exporters of Live Aquatic Animals (FOOD FISH) */
+    margin: 420px 0 0;
+    /* margin: 171px 0 0; */
+    margin-left: 150px;
+    width: 1100px;
+}
+
+.home .single-slider .slider-text-ACS {
+    /*  */
+    margin: 420px 0 0;
+    margin-left: 380px;
+    width: 1100px;
+}
+
+.home .single-slider h1 {
+    font-size: 31px;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 0;
+    text-shadow: 0px 3px 10px #000;
+}
+
+.home .owl-carousel .owl-nav button {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    top: 50%;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    border: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+    border-radius: 100%;
+    margin: -30px 0 0;
+}
+
+.home .owl-carousel .owl-nav button:hover {
+    background: #9ca523;
+}
+
+.home .owl-carousel .owl-nav .owl-prev {
+    left: 15px;
+}
+
+.home.owl-carousel .owl-nav.owl-prev:hover {
+    left: 25px;
+}
+
+.home .owl-carousel .owl-nav .owl-next {
+    right: 15px;
+}
+
+.home.owl-carousel .owl-nav .owl-next:hover {
+    right: 25px;
+}
+
+.home .owl-item.active .slider-text-LAA-OF h1 {
+    animation: fadeInUp 1s both .8s;
+}
+
+.home .owl-item.active .slider-text-main h1 {
+    animation: fadeInUp 1s both .8s;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.home .owl-item.active .slider-text-AI h1 {
+    animation: fadeInUp 1s both .8s;
+}
+
+.home .owl-item.active .slider-text-ACS {
+    animation: fadeInUp 1s both .8s;
+}
+
+.home .owl-item.active .slider-text-AE-LAA-FF h1 {
+    animation: fadeInUp 1s both .8s;
+}
+
+.home .owl-item.active .slider-text-CS h1 {
+    animation: fadeInUp 1s both .8s;
+}
+
+.home .owl-item.active .slider-text-CSII h1 {
+    animation: fadeInUp 1s both .8s;
+}
+
+.home-right-content h1 {
+    background-color: rgb(46, 211, 233);
+    color: white;
+    padding-left: 10px;
+}
+
+.home-right-content ul {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.home-right-content a {
+    font-size: 12px;
+}
+
+.home .home-right-content img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.table-content h2 {
+    padding-top: 20px;
+}
+
+.table-content p {
+    font-style: italic;
+    font-weight: bold;
+}

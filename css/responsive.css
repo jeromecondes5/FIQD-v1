@@ -1,0 +1,108 @@
+@media(min-width:991px) and (max-width:1280px) {
+    .w-20 {
+        width: 100%!important;
+        
+    }
+    .courses .owl-carousel .owl-nav .owl-prev, .testimonials .owl-carousel .owl-nav .owl-prev, .events .owl-carousel .owl-nav .owl-prev, .blog .owl-carousel .owl-nav .owl-prev {
+        left: -55px
+    }
+
+    .courses .owl-carousel .owl-nav .owl-next, .testimonials .owl-carousel .owl-nav .owl-next, .events .owl-carousel .owl-nav .owl-next, .blog .owl-carousel .owl-nav .owl-next {
+        right: -55px
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .w-20 {
+        width: 100%!important;
+    }
+    .courses .owl-carousel .owl-nav .owl-prev, .testimonials .owl-carousel .owl-nav .owl-prev, .events .owl-carousel .owl-nav .owl-prev, .blog .owl-carousel .owl-nav .owl-prev {
+        left: -55px
+    }
+
+    .courses .owl-carousel .owl-nav .owl-next, .testimonials .owl-carousel .owl-nav .owl-next, .events .owl-carousel .owl-nav .owl-next, .blog .owl-carousel .owl-nav .owl-next {
+        right: -55px
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .w-20 {
+        width: 100%!important;
+    }
+   
+    .home-slider, .home-slider .single-slider {
+        height: 500px
+    }
+
+        .home-slider .single-slider .slider-text {
+            margin: 99px 0 0
+        }
+
+        .home-slider .single-slider h1 {
+            font-size: 35px;
+            line-height: 55px
+        }
+
+        .home-slider .single-slider .slider-text {
+            margin: 112px 0 0
+        }
+
+        .home-slider .owl-item.active .slider-text p, .home-slider .single-slider .text-center p, .home-slider .single-slider .text-right p {
+            padding: 0
+        }
+}
+
+@media only screen and (max-width:1024px) {
+
+.w-20 {
+    width: 20%!important;
+}
+
+
+} 
+@media only screen and (max-width:767px) {
+    .w-20 {
+        width: 100%!important;
+    }
+    
+    .home-slider, .home-slider .single-slider {
+        height: 106px;
+    }
+        .home-slider .single-slider h1 {
+            font-size: 15px;
+            line-height: 13px;
+        }
+
+        .home-slider .single-slider .slider-text {
+            margin: 69px 0 0
+        }
+
+        .home-slider .single-slider .slider-text, .home-slider .single-slider .text-center, .home-slider .single-slider .text-right {
+            text-align: left !important
+        }
+
+            .home-slider .single-slider .slider-text p, .home-slider .single-slider .text-center p, .home-slider .single-slider .text-right p {
+                padding: 0;
+                font-size: 14px
+            }
+
+        .home-slider .single-slider .button {
+            margin-top: 30px
+        }
+
+        .home-slider .single-slider .btn {
+            padding: 12px 15px;
+            margin-right: 10px;
+            font-size: 13px
+        }
+}
+
+
+
+
+
+
+
+

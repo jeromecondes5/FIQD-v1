@@ -1,0 +1,71 @@
+.activities-container {
+    padding: 1rem 7%;
+    width: 100%;
+    background-image: url(images/backgroung-pattern-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.activities-container .activities-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    /* color: var(--maincolor); */
+    color: black;
+    /* border-bottom: 2px solid var(--secondcolor); */
+    /* month of July 2025 width: 700px; */
+    width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.activities-table-content {
+    padding-top: 20px;
+    overflow-x: auto;
+}
+
+.activities-table {
+    border-collapse: separate;
+}
+
+.activities-table th,
+.activities-table td {
+    border: #e4e1e1 1px solid;
+}
+
+#btn,
+#btn-SCNI,
+#btn-Export,
+#btn-SCNIIV {
+    background-color: #00b0df;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    /* color: rgb(66, 201, 100); */
+}
+
+#btn:hover,
+#btn-SCNI:hover,
+#btn-Export:hover,
+#btn-SCNIIV:hover {
+    color: #fff;
+    font-size: 16px;
+}
+
+#btn {
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
